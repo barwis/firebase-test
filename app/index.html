@@ -1,0 +1,84 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+
+    <title>firebase test</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <aside>
+    <h3>Rating</h3>
+    <ul id="rating">
+      <li><input type="checkbox" id="rating-1" value="1"><label for="rating-1">1 star</label></li>
+      <li><input type="checkbox" id="rating-2" value="2"><label for="rating-2">2 star</label></li>
+      <li><input type="checkbox" id="rating-3" value="3"><label for="rating-3">3 star</label></li>
+      <li><input type="checkbox" id="rating-4" value="4"><label for="rating-4">4 star</label></li>
+      <li><input type="checkbox" id="rating-5" value="5"><label for="rating-5">5 stars</label></li>
+      <li><input type="checkbox" id="rating-0" value="0"><label for="rating-0">undefined</label></li>
+    </ul>
+
+    <h3>Budget</h3>
+    <ul id="price">
+      <li><input type="checkbox" id="budget-0-45" value="0"><label for="budget-0-45">£0 - £45 per night</label></li>
+      <li><input type="checkbox" id="budget-46-90" value="1"><label for="budget-46-90">£46 - £90 per night</label></li>
+      <li><input type="checkbox" id="budget-91-130" value="2"><label for="budget-91-130">£91 - £130 per night</label></li>
+      <li><input type="checkbox" id="budget-131-180" value="3"><label for="budget-131-180">£131 - £180 per night</label></li>
+      <li><input type="checkbox" id="budget-181" value="4"><label for="budget-181">£181+ per night</label></li>
+    </ul>
+
+    <h5>Results: <span id="resultsCount">-</span></h6>
+    </aside>
+
+    <textarea id="results">
+      results
+    </textarea>
+
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+
+    <script>
+
+
+    </script>
+  </body>
+</html>
